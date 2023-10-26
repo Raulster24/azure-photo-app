@@ -1,0 +1,11 @@
+{
+  "name": "azure-photo-app",
+  "version": "1.0.0",
+  "description": "photo app using azure cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Srivastava",
+  "license": "ISC"
+}
