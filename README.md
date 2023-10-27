@@ -63,10 +63,10 @@ The combination of Azure Blob Storage and Azure Table Storage offers an optimal 
 
 # Azure Portal Screenshots
 
-## Screenshot of the blob stoarge after the photo has been uploaded
+## Screenshot of the blob storage after the photo has been uploaded
 ![Screenshot of the azure blob storage](azure-blob-storage-screenshot.png)
 
-## Screenshot of the table stoarge after the metadata has been added
+## Screenshot of the table storage after the metadata has been added
 ![Screenshot of the azure table storage](azure-table-storage-screenshot.png)
 
 
