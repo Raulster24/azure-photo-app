@@ -43,13 +43,6 @@ A comprehensive web application demonstrating the integration of Azure services,
 - [Azure Blob Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/blobs/)
 - [Azure Table Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/tables/)
 
-## ✨ Contributing
-
-Feel free to open issues or provide pull requests. For major changes, kindly open an issue first to discuss what you'd like to change.
-
-## 📜 License
-
-This project is under the MIT License. See [LICENSE](LICENSE) file for more details.
 
 ## Azure Photo App - Storage Choices
 
@@ -75,3 +68,12 @@ The combination of Azure Blob Storage and Azure Table Storage offers an optimal 
 
 ## Screenshot of the table stoarge after the metadata has been added
 ![Screenshot of the azure table storage](azure-table-storage-screenshot.png)
+
+
+## ✨ Contributing
+
+Feel free to open issues or provide pull requests. For major changes, kindly open an issue first to discuss what you'd like to change.
+
+## 📜 License
+
+This project is under the MIT License. See [LICENSE](LICENSE) file for more details.
