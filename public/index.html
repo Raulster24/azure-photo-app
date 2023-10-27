@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Upload App</title>
+</head>
+
+<body>
+    <h2>Upload a Photo</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="title">Photo Title:</label>
+        <input type="text" name="title" required>
+        <br><br>
+        <input type="file" name="photo" accept="image/*" required>
+        <br><br>
+        <button type="submit">Upload</button>
+    </form>
+    <!--  gallery section for displaying uploaded photos -->
+
+    <h2>Gallery</h2>
+    <div id="gallery"></div>
+
+    <script>
+        // Fetch photos and display them in the gallery on page load
+        fetch('/photos')
+            .then(response => response.json())
+            .then(data => {
+                const galleryDiv = document.getElementById('gallery');
+                data.forEach(photo => {
+                    const img = document.createElement('img');
+                    img.src = photo.url;
+                    img.alt = photo.title;
+                    img.title = photo.title;
+                    img.width = 200; // or any size you prefer
+                    img.height = 200;
+                    galleryDiv.appendChild(img);
+                });
+            });
+    </script>
+
+</body>
+
+</html>
