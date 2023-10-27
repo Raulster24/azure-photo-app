@@ -2,7 +2,7 @@
 
 A comprehensive web application demonstrating the integration of Azure services, such as Azure Blob Storage for image storage and Azure Table Storage for metadata.
 
-![Screenshot of the Application](path-to-your-screenshot.png)
+![Screenshot of the Application](app-screenshot.png)
 
 ## 🌟 Features
 
